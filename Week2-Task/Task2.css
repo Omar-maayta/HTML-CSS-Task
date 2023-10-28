@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+.con{
+    width: 95%;
+    margin: auto;
+}
+h1{
+    color: #0077B5;
+}
+#icon{
+    position: absolute;
+    left: 158px;
+    top: 15px; 
+    color: #0077B5;
+}
+.header{
+    
+    background-color: white;
+    padding: 30px;
+}
+
+
+
+
+.countener{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    text-align: center;
+    row-gap: 30px;
+    min-height: 600px;
+    
+}  
+.countener .login{
+    background-color: white;    
+    box-shadow: 0 5px 15px #ccc;
+    padding: 40px 30px;
+    border-radius: 10px;
+    
+}
+.countener .login .tittle-area{
+    margin-bottom: 20px;
+}
+.countener .login .tittle-area .tittle{
+    font-weight: 600;
+    font-size: 1.9em
+    color #333;
+    
+}

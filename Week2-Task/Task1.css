@@ -1,0 +1,27 @@
+.head{
+    text-align: center;
+}
+.hr{
+    width: 50%;
+}
+table{
+    width: 50%;
+}
+table ,th,td{
+    
+    border: 1px solid;
+    margin: 0px 175px
+}
+th{
+    text-align: right;
+}
+.td{
+    text-align: center;
+}
+.th-c{
+    background-color: yellow;
+}
+.td-c{
+    background-color: pink;
+    text-align: center;
+}
